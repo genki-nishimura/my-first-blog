@@ -21,3 +21,7 @@ class Post(models.Model):
 
     def __str__(self):       #ポストのタイトルのテキスト(string)が返ってくる。
         return self.title
+
+
+
+#djangoにモデルを渡している。これを元にdjangoにデータベース等を作ってもらう。
